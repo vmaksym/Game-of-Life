@@ -1,0 +1,43 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+
+}
+
+.app {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto
+}
+
+.row {
+    height: 10px;
+    min-width: 10px;
+}
+
+.row + .row {
+    border-top: 1px solid white;
+}
+
+.cell {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.cell:hover {
+    background-color: darkcyan;
+}
+
+.new {
+    background-color: darkgrey;
+}
+
+.init {
+    background-color: darkcyan;
+}
+
+.cell + .cell {
+    border-left: 1px solid white;
+}
